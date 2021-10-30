@@ -1,0 +1,289 @@
+/*common css start*/
+body{
+   margin: 0;
+   padding: 0;
+   font-family: 'Lato', sans-serif;
+   font-weight: 400;
+    }
+/*common css end*/
+/*header start*/
+header{
+   padding: 15px 0;
+   font-family: sans-serif;
+  }
+.wrapper{
+    margin: 0 auto; 
+    width: 90%;
+    overflow: hidden;}
+.logo {
+    width: 8%;
+    float: left;
+    padding: 10px;} 
+.logo img{ 
+    width: 100%; }
+.logo img:hover{
+    color:;}                             
+ 
+.menu{ 
+    width: 50%;
+    float: right;
+    margin-top:2px ;}
+.menu ul{ 
+    float: right; }
+.menu ul li{
+    list-style: none;
+    float: left;
+    }
+
+.menu ul li a{
+    text-decoration:none;
+    display: inline-block;
+    margin: 0 15px;}
+.menu ul li:last-child a{
+    margin-right: 0; }
+
+/*header end*/
+
+/*banner start*/
+.banner{
+    background-image: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height:700px;
+    }
+.b_content{
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    color: #ffffff;
+}
+.b_content h1{
+    font-size: 120px;
+    font-weight:700;
+    border-bottom: 2px solid #15a4fa; 
+}
+
+.b_content p{
+    margin: 0;
+    font-size: 20px;
+}
+.b_content button{
+    margin-top: 60px;
+    background: transparent;
+    font-size: 18px;
+    color: #ffffff;
+    height: 45px;
+    width: 160px;
+    border: 1px solid #15a4fa;
+  }
+/*design start*/
+.design{
+  background: #f6f9f9;
+  text-align: center;
+  padding: 60px 0 100px;
+  margin-bottom: 10px;
+}
+.d_h1{
+  margin:20px 0;
+  font-size: 40px;
+
+}
+.d_text{
+  margin: 0;
+  font-size: 20px;
+  line-height: 40px;
+}
+/*design end*/
+/*icon start*/
+.icon{
+  background: white;
+  padding: 80px 0;
+}
+.wrapper2{
+  width: 90%;
+  margin: 0 auto;
+}
+.i_content{
+   text-align: center;
+   overflow: hidden;
+}
+.i_single{
+  padding:0  60px;
+  margin-right: 4.5%;
+  width: 22%;
+  float: left;  
+}
+.i_single:last-child{
+  margin-right: 0;
+}
+.i_h2{
+  margin: 25px 0;
+  font-size: 22px;
+}
+.i_text{
+  margin: 0;
+  font-size: 15px;
+  line-height: 30px;
+}
+.i_img{
+  width:30%;
+  margin: 0 auto;
+  }
+.i_img img{
+    width: 100%;
+    
+}
+
+/*icon end*/
+/*showcase start*/
+.showcase{
+  background: #f6f9f9;
+  padding: 80px 0;
+  display: inline-block;
+}
+
+.s_content{
+    margin-top: 20px;
+    text-align: center;
+}
+.s_h1{
+  margin: 0;
+  font-size: 41px;
+  border-top: 1px solid #15a4fa;
+}
+.s_text{
+  font-size: 15px;
+  margin-bottom: 70px;
+}
+.s_img{
+  overflow: hidden;
+  }
+.show_img{
+  width: 27%;
+  float: left;
+  display: inline-block;
+  margin: 15px 3%;
+  position: relative;
+    
+}
+
+.show_img img{
+  width: 100%; 
+}
+
+.o_2{
+  position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #1a9aeb;
+    opacity: 0;
+    transition: .4s;
+}
+.show_img:hover .o_2{
+  opacity: 1;}
+.o_img{
+  position: absolute;
+  display: inline-block;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+/*showcase end*/
+/*form start*/
+.s_form{
+  background: url(../images/banner2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height:700px;
+  }
+
+.f_content{
+    text-align: center;
+}
+.f_content h1{
+     color: #ffffff;
+     font-size: 40px;
+}
+.f_content p{
+     color: #ffffff;
+     font-size: 15px;
+}
+
+.box{
+  width: 40%;
+  margin:0 auto;
+  padding: 40px 0;
+}
+.fullname, .email, .news, .message{
+  background: transparent;
+  width: 90%;
+  padding: 15px;
+  font-size: 15px;
+  color: #999999;
+  border: 1px solid #999999;}
+
+.checkbox{
+  font-size: 15px;
+  color: white;
+  float: left;
+}
+
+.send{
+   float: right;
+    background: transparent;
+    font-size: 18px;
+    color: #ffffff;
+    height: 45px;
+    width: 160px;
+    border: 1px solid #15a4fa;
+}
+
+/*form end*/
+/*footer start*/
+footer{
+  padding: 20px 0;
+}
+
+.f_text{
+   width: 20%;
+   margin-top:22px; 
+   color: #999999;
+   font-size: 15px;
+   float: left;
+}
+.link{
+  padding: 0;
+  width: 30%;
+  float: right;
+}
+.link ul{
+  float: right;
+}
+.link ul li{
+   
+   list-style: none;
+   float: left;
+}
+.link ul li a{
+   margin-right: 10px;
+  text-decoration: none;
+  display: inline-block;}
+
+ .link ul li:last-child a{
+  margin-right: 0;
+}
+
+.link ul li a img{
+  width: 100%;
+  }
+
+/*footer end*/
